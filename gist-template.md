@@ -13,13 +13,11 @@ Every email is composed of the same characteristics but with the slight variatio
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+
+
+
+
 
 ## Regex Components
 
@@ -42,26 +40,11 @@ The {} are saying they want to match atleast 2 times with a maximum of 6 times.
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 The specifcied a-z and 0-9 imply that it will except any of the following shown and all inbetween.
-### Flags
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-
-### Grouping and Capturing
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ### Bracket Expressions
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
-### Greedy and Lazy Match
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-
-### Boundaries
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-
-### Back-references
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-
-### Look-ahead and Look-behind
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+The [] claim everything thats in them and finds anything included, if its attached to things that arent specified but has what it needs at minimum in them it will pull it in. Its not a scope but a shotgun if left to vague.
 
 ## Author
 
